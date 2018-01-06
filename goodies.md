@@ -3,7 +3,7 @@ layout: default
 title: Goodies
 permalink: /goodies/
 ---
-
+<h1>Goodies</h1>
 <div class="album text-muted">
         <div class="container">
 
