@@ -36,14 +36,13 @@ paginate_path: blog/page:num/
 
 # Main navigation Menu
 header_pages:
-  - index.md
   - blog/index.html
   - tutos.md
   - videos.md
   - goodies.md
   - about.md
 
-
+include: ['_pages']
 
 # Build settings
 markdown: kramdown

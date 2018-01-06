@@ -9,9 +9,10 @@ title: Blog
 
 
           <div class="blog-post">
-            <h2 class="blog-post-title">{{ post.title }}</h2>
+            <h2 class="blog-post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
             <p class="blog-post-meta">Par {{post.author | default:site.author}}, le {% assign dy = post.date | date: "%a" %}{% case dy %}{% when "Mon" %}lundi{% when "Tue" %}mardi{% when "Wed" %}mercredi{% when "Thu" %}jeudi{% when "Fri" %}vendredi{% when "Sat" %}samedi{% when "Sun" %}dimanche{% else %}{{ dy }}{% endcase %} {% assign d = post.date | date: "%-d"  %}{% case d %}{% when '1' %}{{ d }}er{% else %}{{ d }}{% endcase %} {% assign m = post.date | date: "%-m" %}{% case m %}{% when '1' %}janvier{% when '2' %}février{% when '3' %}mars{% when '4' %}avril{% when '5' %}mai{% when '6' %}juin{% when '7' %}juillet{% when '8' %}août{% when '9' %}septembre{% when '10' %}octobre{% when '11' %}novembre{% when '12' %}décembre{% endcase %} {{ post.date | date: '%Y' }}</p>
-            {{ post.content }}
+            {{ post.excerpt }}
+            <p>
             <hr />
           </div>
           {% endfor %}
@@ -72,7 +73,9 @@ title: Blog
               <li><a href="https://www.leetchi.com">leetchi</a></li>
               <li><a href="https://www.tipeee.com">tipeee</a></li>
             </ol>
-          </div>
+<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/5eff20e017635427a24adba8fe13f05a.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+
+</div>
 
         </aside><!-- /.blog-sidebar -->
 
