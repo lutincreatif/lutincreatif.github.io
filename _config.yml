@@ -18,7 +18,7 @@ author: Lutin Créatif
 email: lutincreatif@gmail.com
 description: Apprendre • Créer • Partager
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.lutincreatif.com" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: Europe/Paris
 lang: fr
 version: 0.1
