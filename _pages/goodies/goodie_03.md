@@ -1,10 +1,10 @@
 ---
 layout: page
-title:  "12 free icons for Christmas"
-description: "Une série de 12 magnifiques icones pour le web dans de multiples formats pour illustrer vos réalisations de Noël."
+title:  "BUJO Templates"
 category: goodies
+file: "BUJO_templates"
 formats:
   - .ai
-  - .svg
+  - .pdf
+description: Modèles de page A5 pointillés vierges prête à imprimer. Idéales pour tester des idées de pages pour un Bullet Journal.
 ---
-12 free icons for Christmas

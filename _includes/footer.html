@@ -1,22 +1,28 @@
    <footer class="container">
+     <div class="row">
+        <div class="col-sm">
+          <img src="{{ '/assets/img/logo_small.png' | relative_url }}" />
+        </div>
+        <div class="col-sm">
+          <div class="social-media-list">
+            <a href="https://www.youtube.com/channel/UCEpFnhcFni_TjAAflVG8njQ?view_as=subscriber"><img src="{{ '/assets/img/social/YouTube.svg' | relative_url }}" alt="Chaîne YouTube du Lutin Créatif" width="48px" height="48px" class="img-fluid" /></a>
+            <a href="https://www.facebook.com/lutincreatif/"><img src="{{ '/assets/img/social/Facebook.svg' | relative_url }}" alt="Chaîne YouTube du Lutin Créatif" width="48px" height="48px" /></a>
+            <a href="https://www.pinterest.fr/lutincreatif/"><img src="{{ '/assets/img/social/Pinterest.svg' | relative_url }}" alt="Chaîne YouTube du Lutin Créatif" width="48px" height="48px" /></a>
+            <a href="https://www.instagram.com/lutin_creatif/"><img src="{{ '/assets/img/social/Instagram.svg' | relative_url }}" alt="Chaîne YouTube du Lutin Créatif" width="48px" height="48px" /></a>
+            <a href="https://twitter.com/lutincreatif"><img src="{{ '/assets/img/social/Twitter.svg' | relative_url }}" alt="Chaîne YouTube du Lutin Créatif" width="48px" height="48px" /></a>                  </ul>
+          </div>
+        </div>
+        <div class="col-sm">
+          One of three columns
+        </div>
+      </div>
+    </div>
+
+
      <hr />
      <p>&copy; {{site.author}} • Version {{ site.version }}</p>
 
-     <ul class="social-media-list">
-               {% if site.github_username %}
-               <li>
-                 {% include icon-github.html username=site.github_username %}
-               </li>
-               {% endif %}
 
-               {% if site.twitter_username %}
-               <li>
-                 {% include icon-twitter.html username=site.twitter_username %}
-               </li>
-               {% endif %}
-
-
-             </ul>
 
 
 

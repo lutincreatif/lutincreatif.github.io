@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Version 0.1"
+date:   2018-01-07 00:48:40 +0100
+category: 'Site Web'
+---
+La version 0.1 du site web est désormais disponible. Une première mise en ligne avait été effectuée vendredi dernier. Il ne s'agissait d'une simple coquille vide sans contenu ni mise en page.
+
+Aujourd'hui, c'est une première amorce du site web Lutin Créatif qui est disponible. On commence à y entrevoir la structure du site et le type de contenu qui sera proposé. De plus, le blog, bien qu'incomplet, est maintenant fonctionnel !
+
+A bientôt pour la version 0.2…
